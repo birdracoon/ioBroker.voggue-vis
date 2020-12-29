@@ -1,0 +1,96 @@
+{
+    "common": {
+        "name": "voggue-iobroker-vis",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Voggue Vis",
+        "titleLang": {
+            "en": "Voggue Vis",
+            "de": "Voggue Vis",
+            "ru": "Voggue Vis",
+            "pt": "Voggue Vis",
+            "nl": "Voggue Vis",
+            "fr": "Voggue Vis",
+            "it": "Voggue Vis",
+            "es": "Voggue Vis",
+            "pl": "Voggue Vis",
+            "zh-cn": "Voggue Vis"
+        },
+        "desc": {
+            "en": "IoBroker Visualisation",
+            "de": "IoBroker-Visualisierung",
+            "ru": "IoBroker Визуализация",
+            "pt": "Visualização IoBroker",
+            "nl": "IoBroker-visualisatie",
+            "fr": "Visualisation IoBroker",
+            "it": "Visualizzazione IoBroker",
+            "es": "Visualización de IoBroker",
+            "pl": "Wizualizacja IoBroker",
+            "zh-cn": "IoBroker可视化"
+        },
+        "authors": [
+            "birdracoon <vogl@outlook.com>"
+        ],
+        "keywords": [
+            "template"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "voggue-iobroker-vis.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/birdracoon/ioBroker.voggue-iobroker-vis/master/admin/voggue-iobroker-vis.png",
+        "readme": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "visualization",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}
