@@ -6,14 +6,14 @@
     "name": "birdracoon",
     "email": "vogl@outlook.com"
   },
-  "homepage": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis",
+  "homepage": "https://github.com/birdracoon/iob-vis",
   "license": "MIT",
   "keywords": [
     "template"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis"
+    "url": "https://github.com/birdracoon/iob-vis"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0"
@@ -59,7 +59,7 @@
     "lint": "eslint --ext .ts src"
   },
   "bugs": {
-    "url": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis/issues"
+    "url": "https://github.com/birdracoon/iob-vis/issues"
   },
   "readmeFilename": "README.md"
 }
