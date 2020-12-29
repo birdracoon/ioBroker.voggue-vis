@@ -36,7 +36,7 @@ You are almost done, only a few steps left:
     ```bash
     git push origin master
     ```
-1. Head over to [src/main.ts](src/main.ts) and start programming!
+1. Head over to [main.js](main.js) and start programming!
 
 ### Best Practices
 We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in general. If you're new to ioBroker or Node.js, you should
@@ -46,12 +46,8 @@ check them out. If you're already experienced, you should also take a look at th
 Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
 | Script name | Description                                              |
 |-------------|----------------------------------------------------------|
-| `build`    | Re-compile the TypeScript sources.                       |
-| `watch`     | Re-compile the TypeScript sources and watch for changes. |
-| `test:ts`   | Executes the tests you defined in `*.test.ts` files.     |
+| `test:js`   | Executes the tests you defined in `*.test.js` files.     |
 | `test:package`    | Ensures your `package.json` and `io-package.json` are valid. |
-| `test:unit`       | Tests the adapter startup with unit tests (fast, but might require module mocks to work). |
-| `test:integration`| Tests the adapter startup with an actual instance of ioBroker. |
 | `test` | Performs a minimal test run on package files and your tests. |
 | `lint` | Runs `ESLint` to check your code for formatting errors and potential bugs. |
 

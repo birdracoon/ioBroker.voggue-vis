@@ -49,20 +49,44 @@
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
-        "main": "build/main.js",
+        "main": "main.js",
         "icon": "voggue-iobroker-vis.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/birdracoon/ioBroker.voggue-iobroker-vis/master/admin/voggue-iobroker-vis.png",
         "readme": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis/blob/master/README.md",
         "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
         "mode": "daemon",
         "type": "visualization",
         "compact": true,
         "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "Voggue Vis",
+                "de": "Voggue Vis",
+                "ru": "Voggue Vis",
+                "pt": "Voggue Vis",
+                "nl": "Voggue Vis",
+                "fr": "Voggue Vis",
+                "it": "Voggue Vis",
+                "es": "Voggue Vis",
+                "pl": "Voggue Vis",
+                "zh-cn": "Voggue Vis"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
         "dependencies": [
             {
                 "js-controller": ">=1.4.2"
-            }
+            },
+            "vis"
         ]
     },
     "native": {
