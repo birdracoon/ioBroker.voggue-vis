@@ -1,19 +1,19 @@
 {
-  "name": "iobroker.voggue-iobroker-vis",
+  "name": "ioBroker-voggue-vis",
   "version": "0.0.1",
   "description": "IoBroker Visualisation",
   "author": {
     "name": "birdracoon",
     "email": "vogl@outlook.com"
   },
-  "homepage": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis",
+  "homepage": "https://github.com/birdracoon/ioBroker.voggue-vis",
   "license": "MIT",
   "keywords": [
     "template"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis"
+    "url": "https://github.com/birdracoon/ioBroker.voggue-vis"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0"
@@ -48,7 +48,7 @@
     "lint": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/birdracoon/ioBroker.voggue-iobroker-vis/issues"
+    "url": "https://github.com/birdracoon/ioBroker.voggue-vis/issues"
   },
   "readmeFilename": "README.md"
 }
